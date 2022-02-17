@@ -1,0 +1,127 @@
+/*insert font family*/
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	/*background-color: black; */
+	background-image: url(./photos/destinare.jpg); 
+	/*max-width: 100%;*/
+	/*height: auto;*/
+	/*background-repeat:repeat; */
+}
+
+.jumbotron {
+	margin-top: 80px;
+	margin-bottom: 170px;
+}
+
+#about-me {
+	background:rgba(255,255,255,.5);
+	margin: 30px;
+	border-radius: 20px;
+}
+
+#projects {
+	margin: 0;
+}
+
+#contact {
+	margin-left: 500px;
+	margin-right: 500px;
+	margin-bottom: 80px;
+	margin-top: 200px;
+	background:rgba(255,255,255,.5);
+	border-radius: 20px;
+}
+
+.project1 {
+	background:rgba(255,255,255,.5);
+}
+
+.project2 {
+	background:rgba(255,255,255,.5);
+}
+
+.project3 {
+	background:rgba(255,255,255,.5);
+}
+
+.dave {
+	border-radius: 50%;
+	max-width: 80%;
+	padding: 0;
+	margin: 0;
+}
+
+.imgp1 {
+	max-width: 80%;
+	margin-top: 25px;
+	padding-left: 70px;
+	padding-top: 45px;
+}
+
+.imgp2 {
+	max-width: 80%;
+	padding-left: 70px;
+	padding-top: 35px;
+}
+
+.imgp3 {
+	max-width: 80%;
+	padding-left: 70px;
+	padding-top: 35px;
+}
+
+.txtp1 {
+	font-size: 90%;
+	font-weight: bold;
+}
+
+.txtp2 {
+	font-size: 90%;
+	font-weight: bold;
+}
+
+.txtp3 {
+	font-size: 90%;
+	font-weight: bold;
+}
+
+
+/*section {
+	display: none;
+}
+
+section:target {
+	display: block;
+}*/
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #BA55D3;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
