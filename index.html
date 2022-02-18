@@ -18,9 +18,9 @@
 		<body>
 <!-- navbar -->
 			<nav id="landing">
-			<nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-transparent sticky-top">
 			<img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-			  <a class="navbar-brand" href="#">Capstone 1</a>
+			  <a class="navbar-brand text-dark" href="#landing">Dave's Page</a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
 			  </button>
@@ -42,77 +42,75 @@
 			  </div>
 			</nav>
 
-<!-- jumbotron -->
+<!-- carousel -->
 		<section>
-			<div class="jumbo container my-5 p-5 d-flex justify-content-center">
+			<div class="container">
 				<div class="row">
-					<div class="col">
-						<div class="jumbotron py-3">
-						  <h1 class="j1 display-4 text-center">Hello, I'm Dave Supan!</h1>
-						  <h1 class="j2 lead text-center">A Starting Web Developer at Your Service</h1>
-						  <p class="lead text-center">Let's make your website</p>
-						  <!-- Button trigger modal -->
-						  <button type="button" class="btn btn-primary d-flex mx-auto" data-toggle="modal" data-target="#exampleModal">
-						    Send me a message
-						  </button>
+					<div class="col-12">
+						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+						  <ol class="carousel-indicators">
+						    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+						    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+						  </ol>
+						  <div class="carousel-inner">
+						    <div class="carousel-item active">
+						    	  <div class="carousel-caption d-none d-md-block">
+						    	    <h1>Hi, I'm Dave Supan!</h1>
+						    	</div>
+						      <img class="d-block w-100 mx-auto" src=" ./photos/topmountain.jpg" alt="First slide">
+						    </div>
+						    <div class="carousel-item">
+						    	
+						    	  <div class="carousel-caption d-none d-md-block">
+						    	    <h1>I'll accompany you throughout your website creation journey.</h1>
+						    	</div>
+						    	    
 
-						  <!-- Modal -->
-						  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-						    <div class="modal-dialog" role="document">
-						      <div class="modal-content">
-						        <div class="modal-header">
-						          <h5 class="modal-title" id="exampleModalLabel">Send an Inquiry</h5>
-						          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						            <span aria-hidden="true">&times;</span>
-						          </button>
-						        </div>
-						        <div class="modal-body">
-						          
-						        	<form>
-						        	  <div class="form-group">
-						        	    <label for="exampleFormControlInput1">Email address</label>
-						        	    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-						        	  </div>
-						        	  <div class="form-group">
-						        	    <label for="exampleFormControlInput1">Full Name</label>
-						        	    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Juan Dela Cruz">
-						        	  </div>
-						        	  <div class="form-group">
-						        	    <label for="exampleFormControlTextarea1">What is your concern?</label>
-						        	    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-						        	  </div>
-						        	</form>
+						      <img class="d-block w-100 mx-auto" src=" ./photos/destinare.jpg" alt="Second slide">
+						    </div>
+						    <div class="carousel-item">
+						   
+						    	  <div class="carousel-caption d-none d-md-block">
+						    	    <h1>Navigate my page to learn more.</h1>
+						    	</div>
+						    	    
 
-						        </div>
-						        <div class="modal-footer">
-						          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-						          <button type="button" class="btn btn-primary">Send</button>
-						        </div>
-						      </div>
+						      <img class="d-block w-100 mx-auto" src=" ./photos/sunset.jpg" alt="Third slide">
 						    </div>
 						  </div>
+						  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+						    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						    <span class="sr-only">Previous</span>
+						  </a>
+						  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+						    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+						    <span class="sr-only">Next</span>
+						  </a>
 						</div>
 					</div>
 				</div>
 			</div>
+
+
 		</section>
 
 		<div id="1">.</div>
-		
+
 <!-- About -->
 		<section id="about-me">
 			<div class="m-5">
 				<h1 class="text-center text-dark">About me</h1>
 				<p  class="text-center text-dark">I provide front-end web development services for professionals, organizations, and private companies.</p>
 				<div class="row d-flex flex-wrap">
-					<div class="col-8 px-5">
+					<div class="col-md-8 px-5 order-sm-2">
 						<h3 class="text-center text-dark">Professional Background</h3>
 						<p class="text-justified text-dark">I'm an industrial engineering graduate. I first worked as a call center agent before moving to a finished goods warehouse as an operations specialist and then to a courier warehouse as a coordinator--two positions which are more in line with my college degree. When the pandemic happened in 2020 the warehouse had to close for several weeks and stopped their operations temporarily. During the downtime with the possibility of being laid off and for personal reasons, I decided it was better for me to move to a different work so I tried applying for a government job since I passed the Civil Service Commission Professional Exam. I worked as an administrative assistant under a contract which ended last December 2021. I now want to pursue my  interest in web development and I am fortunate to have found Zuitt where I can learn about it and get a job in the field.</p>
 						<h3 class="text-center text-dark">Why I Chose Web Development</h3>
 						<p class="text-justified text-dark">I remember as a teenager that I was customizing themes on my blog which sparked an interest in wanting to go for the web dev field, but due to circumstances it was kept in the backburner of my life for many years. Long story short, I wanted the flexibility of the work and I find it fun to build and customize websites. Nowadays as we are transitioning more and more into the digitalization of most products and services, being in the web dev field will prove to be lucrative.</p>
 					</div>
-					<div class="col-4">
-						<img class="dave p-4 img-fluid" src=" ./photos/dave.jpg">
+					<div class="col-md-4 col-sm-12 order-sm-1">
+						<img class="dave p-4 img-fluid flex-wrap" src=" ./photos/dave.jpg">
 					</div>
 					</div>
 					</div>
@@ -124,24 +122,24 @@
 
 <!-- Projects -->
 		<section id="projects">
-			<div class="mt-5">
-				<h1 class="text-center text-light">Projects</h1>
-				<p class="text-center text-light">Check on my projects to see what I can offer.</p>
+			<div>
+				<h1 class="text-center text-dark">Projects</h1>
+				<p class="text-center text-dark">Check on my projects to see what I can offer.</p>
 			</div>
 
-			<div class="container d-flex">
+			<div class="projects123 container d-flex">
 				<div class="row">
-					<div class="project1 col-12 col-md-4 m-1">
+					<div class=" col-12 col-md-4">
 						<img src="https://images.pexels.com/photos/270366/pexels-photo-270366.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="imgp1 img-fluid rounded">
 						<h3 class="text-center text-dark">Project 1</h3>
 						<p class="txtp1 text-justified text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, voluptatibus tenetur quasi nostrum, repellat corrupti harum molestias laudantium, temporibus sapiente fugit amet perferendis! Repudiandae aliquid, officia, ex eaque quam excepturi.</p>
 					</div>
-					<div class="project2 col-12 col-md-4 m-1">
+					<div class="col-12 col-md-4">
 						<img src="https://d2gg9evh47fn9z.cloudfront.net/1600px_COLOURBOX7398336.jpg" class="imgp2 img-fluid rounded">
 						<h3 class="text-center text-dark">Project 2</h3>
 						<p class="txtp2 text-justified text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, voluptatibus tenetur quasi nostrum, repellat corrupti harum molestias laudantium, temporibus sapiente fugit amet perferendis! Repudiandae aliquid, officia, ex eaque quam excepturi.</p>
 					</div>
-					<div class="project3 col-12 col-md-4 m-1">
+					<div class="col-12 col-md-4">
 						<img src="https://d11kvfv4kxw5s4.cloudfront.net/wp-content/uploads/sites/15/2021/05/31130410/squirtle-in-a-super-brand-1.jpg" class="imgp3 img-fluid rounded">
 						<h3 class="text-center text-dark">Project 3</h3>
 						<p class="txtp3 text-justified text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, voluptatibus tenetur quasi nostrum, repellat corrupti harum molestias laudantium, temporibus sapiente fugit amet perferendis! Repudiandae aliquid, officia, ex eaque quam excepturi.</p>
@@ -154,30 +152,60 @@
 
 <!-- Contact -->
 		<section id="contact">
-			<h1 class="text-center text-dark m-5">Contact me</h1>
+			<h1 class="text-center text-dark mt-5">Contact me</h1>
 			<p class="text-center text-dark font-weight-bold m-0">Email address: supdavtor@gmail.com</p>
 			<p class="text-center text-dark font-weight-bold">Mobile: +63 966 203 2634</p>
-			<h5 class="text-center">Follow me on social media:</h5>
-		<div class="container d-flex justify-content-center">	
-			<div class="row">	
-				<div class="col">	
-				<ul class="list-unstyled d-flex">	
-					<li><a href="https://web.facebook.com/supandave/" class="fa fa-facebook"></a></li>
-					<li><a href="https://www.instagram.com/nxpctdsht/" class="fa fa-instagram"></a></li>
-					<li><a href="https://www.linkedin.com/in/supandave/" class="fa fa-linkedin"></a></li>
-					<li></li>
-				</ul>
+			<div class="container">
+				<div class="row m-5">
+					<div class="col-md-6 col-sm-12">
+						<div>
+						<h4 class="ml-2">Send me a message</h4>
+						<form>
+						  <div class="form-group mx-2">
+						    <label for="exampleFormControlInput1"> Your Email Address</label>
+						    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+						  </div>
+						  <div class="form-group  mx-2">
+						    <label for="exampleFormControlInput1">Your Full Name</label>
+						    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Juan Dela Cruz">
+						  </div>
+						  <div class="form-group  mx-2">
+						    <label for="exampleFormControlTextarea1">What is your concern?</label>
+						    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+						  </div>
+						</form>
+					</div>
+					<div class="modal-footer d-flex justify-content-center">
+					  <button type="button" class="btn btn-primary">Send</button>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-12">
+						<h5 class="text-center">Follow me on social media:</h5>
+					<div class="container d-flex justify-content-center">
+						<div class="row">	
+							<div class="col">	
+							<ul class="list-unstyled d-flex">	
+								<li><a href="https://web.facebook.com/supandave/" class="fa fa-facebook" target="_blank"></a></li>
+								<li><a href="https://www.instagram.com/nxpctdsht/" class="fa fa-instagram" target="_blank"></a></li>
+								<li><a href="https://www.linkedin.com/in/supandave/" class="fa fa-linkedin" target="_blank"></a></li>
+								<li></li>
+							</ul>
+							</div>
+						</div>
+					</div>
+					<h5 class="text-center">Visit our office:</h5>
+					<center class="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15379.699412084747!2d120.58630777827067!3d15.488473777870459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3396c63d113bd29f%3A0x28c4553fa3d6c0a3!2sSanto%20Cristo%2C%20Tarlac%20City%2C%20Tarlac!5e0!3m2!1sen!2sph!4v1645149857829!5m2!1sen!2sph" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe></center>
+				</div>
 				</div>
 			</div>
-		</div>
 		</section>
 
 
-<!-- sticky footer -->
+<!-- footer -->
 		<div>
 			<div>
 				<div>
-					<ul class="text-light bg-secondary list-unstyled fixed-bottom m-0 d-flex justify-content-end">
+					<ul class="text-light bg-secondary list-unstyled m-0 d-flex justify-content-end">
 						<li class="px-2">Copyright</li>
 						<li class="px-2">2022</li>
 						<li class="px-2">All rights reserved</li>
