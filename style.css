@@ -122,16 +122,6 @@ p {
     opacity: 0.7;
 }
 
-
-
-/*section {
-	display: none;
-}
-
-section:target {
-	display: block;
-}*/
-
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -158,3 +148,68 @@ section:target {
   background: #007bb5;
   color: white;
 }
+
+@media(max-width: 992px) {
+	.carousel1 {
+		padding-right: 80px;
+		position: relative;
+	}
+	.carousel2 {
+		padding-right: 80px;
+  		position: relative;
+	}
+	.carousel3 {
+		padding-right: 80px;
+  		position: relative;
+  	}
+  	#contact {
+  		margin-left: 160px;
+  		margin-right: 160px;
+  	} 
+  	.imgp1 {
+  		max-width: 80%;
+  		margin-top: 5px;
+  		padding-left: 50px;
+  		padding-top: 35px;
+  	}
+  	.imgp2 {
+  		padding-left: 50px;
+  	}
+
+  	.imgp3 {
+  		padding-left: 50px;
+  	}
+}
+
+ @media(max-width: 576px) {
+ 	.dave {
+ 		max-width: 80%;
+ 		position: relative;
+ 	}
+  	.carousel1 {
+ 		padding-right: 80px;
+ 		position: relative;
+ 	}
+ 	.carousel2 {
+ 		padding-right: 80px;
+   		position: relative;
+ 	}
+ 	.carousel3 {
+ 		padding-right: 80px;
+   		position: relative;
+   	}
+ }
+
+ @media(max-width: 768px) {
+ 	.carousel1 {
+		padding-right: 100px;
+		position: relative;
+	}
+	.carousel2 {
+		padding-right: 100px;
+  		position: relative;
+	}
+	.carousel3 {
+		padding-right: 110px;
+  		position: relative;
+  	}

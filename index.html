@@ -19,7 +19,7 @@
 <!-- navbar -->
 			<nav id="landing">
 			<nav class="navbar navbar-expand-lg navbar-dark bg-transparent sticky-top">
-			<img src="/docs/4.1/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+			<img src=" ./photos/mylogo.png" width="30" height="30" class="d-inline-block align-top" alt="">
 			  <a class="navbar-brand text-dark" href="#landing">Dave's Page</a>
 			  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
 			    <span class="navbar-toggler-icon"></span>
@@ -27,7 +27,7 @@
 			  <div class="collapse navbar-collapse" id="navbarText">
 			    <ul class="navbar-nav ml-auto">
 			      <li class="nav-item active">
-			        <a class="nav-link" href="#landing">Home<span class="sr-only">(current)</span></a>
+			        <a class="nav-link" href="#landing">Home<span class="sr-only"></span></a>
 			      </li>
 			      <li class="nav-item">
 			        <a class="nav-link" href="#1">About</a>
@@ -44,7 +44,7 @@
 
 <!-- carousel -->
 		<section>
-			<div class="container">
+			<div class="container carou">
 				<div class="row">
 					<div class="col-12">
 						<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -55,28 +55,15 @@
 						  </ol>
 						  <div class="carousel-inner">
 						    <div class="carousel-item active">
-						    	  <div class="carousel-caption d-none d-md-block">
-						    	    <h1>Hi, I'm Dave Supan!</h1>
-						    	</div>
-						      <img class="d-block w-100 mx-auto" src=" ./photos/topmountain.jpg" alt="First slide">
+						      <img class="carousel1 d-block w-100 mx-auto" src=" ./photos/topmountain.jpg" alt="First slide">
 						    </div>
 						    <div class="carousel-item">
-						    	
-						    	  <div class="carousel-caption d-none d-md-block">
-						    	    <h1>I'll accompany you throughout your website creation journey.</h1>
-						    	</div>
-						    	    
 
-						      <img class="d-block w-100 mx-auto" src=" ./photos/destinare.jpg" alt="Second slide">
+						      <img class="carousel2 d-block w-100 mx-auto" src=" ./photos/destinare.jpg" alt="Second slide">
 						    </div>
 						    <div class="carousel-item">
-						   
-						    	  <div class="carousel-caption d-none d-md-block">
-						    	    <h1>Navigate my page to learn more.</h1>
-						    	</div>
 						    	    
-
-						      <img class="d-block w-100 mx-auto" src=" ./photos/sunset.jpg" alt="Third slide">
+						      <img class="carousel3 d-block w-100 mx-auto" src=" ./photos/sunset.jpg" alt="Third slide">
 						    </div>
 						  </div>
 						  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -103,13 +90,13 @@
 				<h1 class="text-center text-dark">About me</h1>
 				<p  class="text-center text-dark">I provide front-end web development services for professionals, organizations, and private companies.</p>
 				<div class="row d-flex flex-wrap">
-					<div class="col-md-8 px-5 order-md-1 order-sm-2">
+					<div class="col-md-8 px-5">
 						<h3 class="text-center text-dark">Professional Background</h3>
 						<p class="text-justified text-dark">I'm an industrial engineering graduate. I first worked as a call center agent before moving to a finished goods warehouse as an operations specialist and then to a courier warehouse as a coordinator--two positions which are more in line with my college degree. When the pandemic happened in 2020 the warehouse had to close for several weeks and stopped their operations temporarily. During the downtime with the possibility of being laid off and for personal reasons, I decided it was better for me to move to a different work so I tried applying for a government job since I passed the Civil Service Commission Professional Exam. I worked as an administrative assistant under a contract which ended last December 2021. I now want to pursue my  interest in web development and I am fortunate to have found Zuitt where I can learn about it and get a job in the field.</p>
 						<h3 class="text-center text-dark">Why I Chose Web Development</h3>
 						<p class="text-justified text-dark">I remember as a teenager that I was customizing themes on my blog which sparked an interest in wanting to go for the web dev field, but due to circumstances it was kept in the backburner of my life for many years. Long story short, I wanted the flexibility of the work and I find it fun to build and customize websites. Nowadays as we are transitioning more and more into the digitalization of most products and services, being in the web dev field will prove to be lucrative.</p>
 					</div>
-					<div class="col-md-4 col-sm-12 order-md-2 order-sm-1">
+					<div class="col-md-4 col-sm-12 order-first">
 						<img class="dave p-4 img-fluid flex-wrap" src=" ./photos/dave.jpg">
 					</div>
 					</div>
@@ -153,23 +140,23 @@
 <!-- Contact -->
 		<section id="contact">
 			<h1 class="text-center text-dark mt-5">Contact me</h1>
-			<p class="text-center text-dark font-weight-bold m-0">Email address: supdavtor@gmail.com</p>
+			<p class="text-center text-dark font-weight-bold">Email address: supdavtor@gmail.com</p>
 			<p class="text-center text-dark font-weight-bold">Mobile: +63 966 203 2634</p>
 			<div class="container">
-				<div class="row m-5">
+				<div class="row">
 					<div class="col-md-6 col-sm-12">
 						<div>
-						<h4 class="ml-2">Send me a message</h4>
+						<h4 class="text-center m-3">Send me a message</h4>
 						<form>
-						  <div class="form-group">
+						  <div class="form-group m-3">
 						    <label for="exampleFormControlInput1"> Your Email Address</label>
 						    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
 						  </div>
-						  <div class="form-group">
+						  <div class="form-group m-3">
 						    <label for="exampleFormControlInput1">Your Full Name</label>
 						    <input type="email" class="form-control" id="exampleFormControlInput2" placeholder="Juan Dela Cruz">
 						  </div>
-						  <div class="form-group">
+						  <div class="form-group m-3">
 						    <label for="exampleFormControlTextarea1">What is your concern?</label>
 						    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
 						  </div>
@@ -202,17 +189,13 @@
 
 
 <!-- footer -->
-		<div>
-			<div>
-				<div>
-					<ul class="text-light bg-secondary list-unstyled m-0 d-flex justify-content-end">
-						<li class="px-2">Copyright</li>
-						<li class="px-2">2022</li>
-						<li class="px-2">All rights reserved</li>
-					</ul>
-				</div>
-			</div>
-		</div>
+		<nav class="navbar navbar-dark bg-dark">
+		  <div class="container-fluid">
+		    <span class="navbar-brandx mb-0 text-light align-content-center">© 2020 Copyright. All rights reserved</span>
+		  </div>
+		</nav>
+
+				      
 
 
 
